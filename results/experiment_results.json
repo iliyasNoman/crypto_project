@@ -1,0 +1,449 @@
+[
+  {
+    "arch": "10-15-15-1",
+    "seed": 42,
+    "bits": 64,
+    "extraction_success": true,
+    "logit_loss": 4.944489262470597e-12,
+    "weight_bits": 38.643346007468494,
+    "svd_bits": 34.657350294863846,
+    "empirical_bits": 37.53954410369036
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 42,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 4.211075932403219e-12,
+    "weight_bits": 38.27207123837419,
+    "svd_bits": 34.4715980405405,
+    "empirical_bits": 37.7104133349192
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 42,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 5.149658477421326e-12,
+    "weight_bits": 37.89529376081435,
+    "svd_bits": 33.87460927123898,
+    "empirical_bits": 37.36032013959111
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 42,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 42,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 43,
+    "bits": 64,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 43,
+    "bits": 32,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 43,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 8.385264704813267e-12,
+    "weight_bits": 37.191962812134584,
+    "svd_bits": 33.687823107488626,
+    "empirical_bits": 36.70471086010455
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 43,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 43,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 44,
+    "bits": 64,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 44,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 8.091305403468141e-12,
+    "weight_bits": 36.155139489054015,
+    "svd_bits": 33.3130709005869,
+    "empirical_bits": 36.67378120218671
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 44,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 9.688250202088966e-12,
+    "weight_bits": 36.75550840713468,
+    "svd_bits": 33.42910264113697,
+    "empirical_bits": 36.47600931751559
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 44,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "10-15-15-1",
+    "seed": 44,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 64,
+    "extraction_success": true,
+    "logit_loss": 6.104183825073051e-11,
+    "weight_bits": 33.972046434208494,
+    "svd_bits": 33.78412673400749,
+    "empirical_bits": 33.92201602603725
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 2.3905988300043646e-11,
+    "weight_bits": 35.32883128549725,
+    "svd_bits": 34.793102734587045,
+    "empirical_bits": 35.282966250509105
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 8.056821876323284e-11,
+    "weight_bits": 33.598594933960634,
+    "svd_bits": 33.42219298898756,
+    "empirical_bits": 33.526405221434665
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 64,
+    "extraction_success": true,
+    "logit_loss": 5.21365173256072e-11,
+    "weight_bits": 34.202381216139656,
+    "svd_bits": 33.86697876052288,
+    "empirical_bits": 34.15693771769185
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 5.132783087447024e-12,
+    "weight_bits": 36.98550339528883,
+    "svd_bits": 35.19949942178424,
+    "empirical_bits": 37.45696817974476
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 2.4288127065119625e-11,
+    "weight_bits": 35.33271777323157,
+    "svd_bits": 35.076130446749076,
+    "empirical_bits": 35.25963947589433
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 64,
+    "extraction_success": true,
+    "logit_loss": 2.134070697934476e-12,
+    "weight_bits": 38.79211820293955,
+    "svd_bits": 36.58350246243495,
+    "empirical_bits": 38.72737021502363
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 2.5901059075295052e-11,
+    "weight_bits": 35.297571100167,
+    "svd_bits": 34.85573723453179,
+    "empirical_bits": 35.1633825042101
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 1.2252421299763228e-11,
+    "weight_bits": 36.445763411794,
+    "svd_bits": 35.80295551719871,
+    "empirical_bits": 36.23476570826226
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 64,
+    "extraction_success": true,
+    "logit_loss": 5.562217353372034e-12,
+    "weight_bits": 38.04700713793294,
+    "svd_bits": 35.223651034203435,
+    "empirical_bits": 37.220947573571834
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 2.6884494630508016e-11,
+    "weight_bits": 35.31883452244055,
+    "svd_bits": 33.650228716980166,
+    "empirical_bits": 35.106492558933624
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 16,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 4,
+    "extraction_success": true,
+    "logit_loss": 8235.982269333539
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 64,
+    "extraction_success": true,
+    "logit_loss": 6.216005488113296e-11,
+    "weight_bits": 34.03159581422725,
+    "svd_bits": 33.07697652007364,
+    "empirical_bits": 33.888008554135126
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 2.0729062910618268e-10,
+    "weight_bits": 32.3994453833131,
+    "svd_bits": 31.643308287241375,
+    "empirical_bits": 31.98972050157361
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 9.321254879068874e-11,
+    "weight_bits": 33.46914768117315,
+    "svd_bits": 32.35202279494795,
+    "empirical_bits": 33.2354912014734
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 64,
+    "extraction_success": true,
+    "logit_loss": 1.2175593866459167e-11,
+    "weight_bits": 36.62436446319692,
+    "svd_bits": 34.380155028963465,
+    "empirical_bits": 36.2404238520429
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 32,
+    "extraction_success": true,
+    "logit_loss": 6.374456518187799e-12,
+    "weight_bits": 37.85279010546536,
+    "svd_bits": 35.01848337827148,
+    "empirical_bits": 37.12924999665389
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 16,
+    "extraction_success": true,
+    "logit_loss": 2.0513368781394092e-11,
+    "weight_bits": 35.88489918263513,
+    "svd_bits": 33.86323071980235,
+    "empirical_bits": 35.49152430297043
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 8,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 4,
+    "extraction_success": false,
+    "logit_loss": null,
+    "weight_bits": null,
+    "svd_bits": null,
+    "empirical_bits": null
+  }
+]

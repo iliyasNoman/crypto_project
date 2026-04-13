@@ -23,8 +23,8 @@ import matplotlib.pyplot as plt
 import scipy.optimize
 import pickle
 
-from jax.config import config
-config.update("jax_enable_x64", True)
+import jax
+jax.config.update("jax_enable_x64", True)
 
 def relu(x):
     return x * (x>0)
@@ -86,11 +86,12 @@ for layer in range(len(A1)-1):
     
     A2[layer+1] = A2[layer+1][j_s,:]
 
-A2[1] *= np.sign(A2[1][0])
-A2[1] *= np.sign(A1[1][0])
+if len(A2) > 1:
+    A2[1] *= np.sign(A2[1][0])
+    A2[1] *= np.sign(A1[1][0])
 
-B2[1] *= np.sign(B2[1])
-B2[1] *= np.sign(B1[1])
+    B2[1] *= np.sign(B2[1])
+    B2[1] *= np.sign(B1[1])
 
 print("Finished alignment. Now compute the max error in the matrix.")
 max_err = 0

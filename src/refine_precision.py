@@ -15,7 +15,7 @@
 import numpy as np
 
 import jax
-import jax.experimental.optimizers
+import optax
 import jax.numpy as jnp
 
 from src.global_vars import *
@@ -113,14 +113,9 @@ def improve_row_precision(args):
                 # No queries involvd here.
                 if step%1000 == 0:
                     lr *= .5
-                    init, opt_update, get_params = jax.experimental.optimizers.adam(lr)
-                
-                    @jax.jit
-                    def update(i, opt_state, batch):
-                        params = get_params(opt_state)
-                        return opt_update(i, loss_grad(batch, row), opt_state)
-                    opt_state = init(points)
-                
+                    optimizer = optax.adam(lr)
+                    opt_state = optimizer.init(points)
+
                 if step%100 == 0:
                     ell = loss(points, row)
                     if CHEATING:
@@ -128,8 +123,9 @@ def improve_row_precision(args):
                         print(ell)
                     if ell < 1e-5:
                         break
-                opt_state = update(step, opt_state, points)
-                points = opt_state.packed_state[0][0]
+                grads = loss_grad(points, row)
+                updates, opt_state = optimizer.update(grads, opt_state, points)
+                points = optax.apply_updates(points, updates)
                 
             for point in points:
                 # For each point, try to see where it actually is.
