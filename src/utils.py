@@ -15,9 +15,25 @@
 import numpy as np
 import jax.numpy as jnp
 import sys
+import os
 
 from src.global_vars import *
 from src.global_vars import __cheat_A, __cheat_B
+
+# Inference-time output rounding (defense under test).
+# If INFERENCE_ROUND_BITS is set to N (1..63), each oracle response is rounded
+# via round(y * 2^(N-1)) / 2^(N-1) before being returned, mirroring the formula
+# used by the weight-quantization experiment but applied to *outputs at
+# inference time* rather than weights at-rest. Values >= 64 (or unset) disable
+# rounding entirely.
+_ROUND_BITS_ENV = os.environ.get("INFERENCE_ROUND_BITS")
+try:
+    _ROUND_BITS = int(_ROUND_BITS_ENV) if _ROUND_BITS_ENV else None
+except ValueError:
+    _ROUND_BITS = None
+if _ROUND_BITS is not None and _ROUND_BITS >= 64:
+    _ROUND_BITS = None
+_ROUND_SCALE = (2.0 ** (_ROUND_BITS - 1)) if _ROUND_BITS is not None else None
 
 
 def matmul(a,b,c,np=np):
@@ -65,6 +81,8 @@ def run(x,inner_A=__cheat_A,inner_B=__cheat_B):
         x = matmul(x,a,b)
         if i < len(sizes)-2:
             x = x*(x>0)
+    if _ROUND_SCALE is not None:
+        x = np.round(x * _ROUND_SCALE) / _ROUND_SCALE
     SAVED_QUERIES.extend(zip(orig_x,x))
 
     if TRACK_LINES:
