@@ -222,14 +222,26 @@ This produces a clean picture of the security/utility tradeoff:
 |      8 |     ~8e-3   |       ~0.1–0.2% |       0%       | Noticeable but small relative error — what `int8` post-training quantization typically targets. |
 |      4 |     ~0.13   |       ~1–4%     |       0%       | Coarse — starts to materially distort outputs. Only worth it if you need integer outputs for some other reason. |
 
-**Conclusion: bits=32 output rounding is the recommended operating point.**
-Mean relative error is `~1e-10` (i.e., below `float64` precision noise — you
-cannot tell rounded outputs apart from unrounded ones in practice), yet the
-attacker's second-order finite differences collapse to noise and the attack
-fails on every (arch, seed) combination. You don't need to give up any
-accuracy at all to defeat the Carlini extraction attack — you just need to
-stop returning the trailing low-order mantissa bits that the attack uses
-to reconstruct the network's piecewise-linear geometry.
+**Conclusion (against Carlini's attack): bits=32 output rounding is the
+recommended operating point.** Mean relative error is `~1e-10` (below
+`float64` precision noise — you cannot tell rounded outputs apart from
+unrounded ones in practice), yet the attacker's second-order finite
+differences collapse to noise and Carlini's attack fails on every (arch,
+seed) combination.
+
+> ⚠️ **But that conclusion is fragile.** See [ATTACK_DESIGN.md](ATTACK_DESIGN.md):
+> a different, rounding-aware attack we developed (step-spacing extraction)
+> defeats the bits=32 defense on **6/6** of the 2-layer cells we tested. The
+> *real* security/utility tradeoff is summarised below; output rounding alone
+> is not a sound defense unless paired with much coarser quantization
+> (`bits ≤ 8`) or non-deterministic perturbation.
+
+|  Bits | Utility cost (rel err) | Carlini extracts? | Step-spacing extracts? |
+|------:|:----------------------:|:-----------------:|:----------------------:|
+|    32 |         ~1e-10         |        no         |     **yes (6/6)**      |
+|    16 |          ~5e-6         |        no         |    borderline (1/6)    |
+|     8 |        ~0.1–0.2%       |        no         |          no            |
+|     4 |          ~1–4%         |        no         |          no            |
 
 ## Generated artifacts
 

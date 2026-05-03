@@ -1,0 +1,242 @@
+[
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 0.0011511959484806766,
+    "mean_logit_loss": 0.00023024011841438883,
+    "rel_loss": 7.627416988406573e-05,
+    "wallclock_s": 8.36059308052063
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 14.975659396654535,
+    "mean_logit_loss": 1.97819415464042,
+    "rel_loss": 0.6553380794529665,
+    "wallclock_s": 77.1419939994812
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 8,
+    "extraction_success": true,
+    "max_logit_loss": 15.788927821674193,
+    "mean_logit_loss": 2.200570838263022,
+    "rel_loss": 0.7290072430274823,
+    "wallclock_s": 29.36698865890503
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 4,
+    "extraction_success": false,
+    "max_logit_loss": null,
+    "mean_logit_loss": null,
+    "rel_loss": null,
+    "wallclock_s": 23.65026831626892
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 0.0012730460705920876,
+    "mean_logit_loss": 0.00023878647968936343,
+    "rel_loss": 0.00024870783525512367,
+    "wallclock_s": 4.349934101104736
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 4.690444205835258,
+    "mean_logit_loss": 0.8602073718749372,
+    "rel_loss": 0.8959481860439882,
+    "wallclock_s": 19.331330060958862
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 8,
+    "extraction_success": true,
+    "max_logit_loss": 5.831637334671249,
+    "mean_logit_loss": 0.8898232716842936,
+    "rel_loss": 0.9267945988739763,
+    "wallclock_s": 30.142457008361816
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 4,
+    "extraction_success": false,
+    "max_logit_loss": null,
+    "mean_logit_loss": null,
+    "rel_loss": null,
+    "wallclock_s": 24.148397207260132
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 0.03410503204895088,
+    "mean_logit_loss": 0.005497740325272753,
+    "rel_loss": 0.0025173278103986997,
+    "wallclock_s": 4.34799599647522
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 9.349844417904812,
+    "mean_logit_loss": 1.4403967369556707,
+    "rel_loss": 0.6595347450802271,
+    "wallclock_s": 15.858181953430176
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 8,
+    "extraction_success": true,
+    "max_logit_loss": 13.026658660439487,
+    "mean_logit_loss": 1.824503359945854,
+    "rel_loss": 0.8354110555284742,
+    "wallclock_s": 30.107733011245728
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 44,
+    "bits": 4,
+    "extraction_success": false,
+    "max_logit_loss": null,
+    "mean_logit_loss": null,
+    "rel_loss": null,
+    "wallclock_s": 23.6427059173584
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 1.7389718797555778,
+    "mean_logit_loss": 0.24198206085580096,
+    "rel_loss": 0.13040573772417394,
+    "wallclock_s": 17.357912063598633
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 7.652906827687867,
+    "mean_logit_loss": 1.3501165245938493,
+    "rel_loss": 0.7275867507723065,
+    "wallclock_s": 75.6699538230896
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 8,
+    "extraction_success": true,
+    "max_logit_loss": 9.245541363500706,
+    "mean_logit_loss": 1.6108992305417065,
+    "rel_loss": 0.8681242808460834,
+    "wallclock_s": 190.30227208137512
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 42,
+    "bits": 4,
+    "extraction_success": false,
+    "max_logit_loss": null,
+    "mean_logit_loss": null,
+    "rel_loss": null,
+    "wallclock_s": 96.6111228466034
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 1.984634882801946,
+    "mean_logit_loss": 0.23572983261997288,
+    "rel_loss": 0.08789590905804769,
+    "wallclock_s": 17.257039308547974
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 10.69666094302209,
+    "mean_logit_loss": 1.8577493163012602,
+    "rel_loss": 0.6926936787907886,
+    "wallclock_s": 68.45781397819519
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 8,
+    "extraction_success": true,
+    "max_logit_loss": 12.62774289002115,
+    "mean_logit_loss": 1.8332637316317861,
+    "rel_loss": 0.683563808806064,
+    "wallclock_s": 164.5991952419281
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 43,
+    "bits": 4,
+    "extraction_success": false,
+    "max_logit_loss": null,
+    "mean_logit_loss": null,
+    "rel_loss": null,
+    "wallclock_s": 96.45133996009827
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 3.1384844375736893,
+    "mean_logit_loss": 0.41636936262152374,
+    "rel_loss": 0.12879592835470366,
+    "wallclock_s": 17.244669198989868
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 10.427640012849018,
+    "mean_logit_loss": 1.5724556495813276,
+    "rel_loss": 0.4864091918514187,
+    "wallclock_s": 68.46948099136353
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 8,
+    "extraction_success": true,
+    "max_logit_loss": 14.876653338208074,
+    "mean_logit_loss": 2.13626061603177,
+    "rel_loss": 0.6608115148460249,
+    "wallclock_s": 150.69491004943848
+  },
+  {
+    "arch": "40-20-1",
+    "seed": 44,
+    "bits": 4,
+    "extraction_success": false,
+    "max_logit_loss": null,
+    "mean_logit_loss": null,
+    "rel_loss": null,
+    "wallclock_s": 94.08594417572021
+  }
+]
