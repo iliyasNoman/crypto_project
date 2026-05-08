@@ -4,10 +4,10 @@
     "seed": 42,
     "bits": 32,
     "extraction_success": true,
-    "max_logit_loss": 0.0011511959484842293,
-    "mean_logit_loss": 0.0002302401184144056,
-    "rel_loss": 7.62741698840713e-05,
-    "wallclock_s": 4.6147871017456055
+    "max_logit_loss": 0.0011511959484806766,
+    "mean_logit_loss": 0.00023024011841438883,
+    "rel_loss": 7.627416988406573e-05,
+    "wallclock_s": 8.36059308052063
   },
   {
     "arch": "20-10-1",
@@ -15,9 +15,9 @@
     "bits": 16,
     "extraction_success": true,
     "max_logit_loss": 14.975659396654535,
-    "mean_logit_loss": 1.9781941546404196,
+    "mean_logit_loss": 1.97819415464042,
     "rel_loss": 0.6553380794529665,
-    "wallclock_s": 14.71689224243164
+    "wallclock_s": 77.1419939994812
   },
   {
     "arch": "20-10-1",
@@ -26,8 +26,8 @@
     "extraction_success": true,
     "max_logit_loss": 15.788927821674193,
     "mean_logit_loss": 2.200570838263022,
-    "rel_loss": 0.7290072430274824,
-    "wallclock_s": 29.379260301589966
+    "rel_loss": 0.7290072430274823,
+    "wallclock_s": 29.36698865890503
   },
   {
     "arch": "20-10-1",
@@ -37,17 +37,17 @@
     "max_logit_loss": null,
     "mean_logit_loss": null,
     "rel_loss": null,
-    "wallclock_s": 24.726242065429688
+    "wallclock_s": 23.65026831626892
   },
   {
     "arch": "20-10-1",
     "seed": 43,
     "bits": 32,
     "extraction_success": true,
-    "max_logit_loss": 0.0012730460705911995,
-    "mean_logit_loss": 0.0002387864796893675,
-    "rel_loss": 0.0002487078352551279,
-    "wallclock_s": 4.961619853973389
+    "max_logit_loss": 0.0012730460705920876,
+    "mean_logit_loss": 0.00023878647968936343,
+    "rel_loss": 0.00024870783525512367,
+    "wallclock_s": 4.349934101104736
   },
   {
     "arch": "20-10-1",
@@ -57,17 +57,17 @@
     "max_logit_loss": 4.690444205835258,
     "mean_logit_loss": 0.8602073718749372,
     "rel_loss": 0.8959481860439882,
-    "wallclock_s": 27.547214031219482
+    "wallclock_s": 19.331330060958862
   },
   {
     "arch": "20-10-1",
     "seed": 43,
     "bits": 8,
     "extraction_success": true,
-    "max_logit_loss": 5.831637334671248,
-    "mean_logit_loss": 0.8898232716842939,
-    "rel_loss": 0.9267945988739765,
-    "wallclock_s": 38.95873999595642
+    "max_logit_loss": 5.831637334671249,
+    "mean_logit_loss": 0.8898232716842936,
+    "rel_loss": 0.9267945988739763,
+    "wallclock_s": 30.142457008361816
   },
   {
     "arch": "20-10-1",
@@ -77,17 +77,17 @@
     "max_logit_loss": null,
     "mean_logit_loss": null,
     "rel_loss": null,
-    "wallclock_s": 26.82458806037903
+    "wallclock_s": 24.148397207260132
   },
   {
     "arch": "20-10-1",
     "seed": 44,
     "bits": 32,
     "extraction_success": true,
-    "max_logit_loss": 0.03410503204895099,
-    "mean_logit_loss": 0.0054977403252727645,
-    "rel_loss": 0.0025173278103987054,
-    "wallclock_s": 4.689619302749634
+    "max_logit_loss": 0.03410503204895088,
+    "mean_logit_loss": 0.005497740325272753,
+    "rel_loss": 0.0025173278103986997,
+    "wallclock_s": 4.34799599647522
   },
   {
     "arch": "20-10-1",
@@ -95,9 +95,9 @@
     "bits": 16,
     "extraction_success": true,
     "max_logit_loss": 9.349844417904812,
-    "mean_logit_loss": 1.440396736955671,
-    "rel_loss": 0.6595347450802275,
-    "wallclock_s": 21.036906957626343
+    "mean_logit_loss": 1.4403967369556707,
+    "rel_loss": 0.6595347450802271,
+    "wallclock_s": 15.858181953430176
   },
   {
     "arch": "20-10-1",
@@ -106,8 +106,8 @@
     "extraction_success": true,
     "max_logit_loss": 13.026658660439487,
     "mean_logit_loss": 1.824503359945854,
-    "rel_loss": 0.8354110555284743,
-    "wallclock_s": 33.94907903671265
+    "rel_loss": 0.8354110555284742,
+    "wallclock_s": 30.107733011245728
   },
   {
     "arch": "20-10-1",
@@ -117,17 +117,17 @@
     "max_logit_loss": null,
     "mean_logit_loss": null,
     "rel_loss": null,
-    "wallclock_s": 31.768401861190796
+    "wallclock_s": 23.6427059173584
   },
   {
     "arch": "40-20-1",
     "seed": 42,
     "bits": 32,
     "extraction_success": true,
-    "max_logit_loss": 1.7389718797555784,
+    "max_logit_loss": 1.7389718797555778,
     "mean_logit_loss": 0.24198206085580096,
     "rel_loss": 0.13040573772417394,
-    "wallclock_s": 20.28887701034546
+    "wallclock_s": 17.357912063598633
   },
   {
     "arch": "40-20-1",
@@ -135,19 +135,19 @@
     "bits": 16,
     "extraction_success": true,
     "max_logit_loss": 7.652906827687867,
-    "mean_logit_loss": 1.3501165245938491,
-    "rel_loss": 0.7275867507723064,
-    "wallclock_s": 82.5899829864502
+    "mean_logit_loss": 1.3501165245938493,
+    "rel_loss": 0.7275867507723065,
+    "wallclock_s": 75.6699538230896
   },
   {
     "arch": "40-20-1",
     "seed": 42,
     "bits": 8,
     "extraction_success": true,
-    "max_logit_loss": 9.245541363500704,
+    "max_logit_loss": 9.245541363500706,
     "mean_logit_loss": 1.6108992305417065,
     "rel_loss": 0.8681242808460834,
-    "wallclock_s": 226.5819571018219
+    "wallclock_s": 190.30227208137512
   },
   {
     "arch": "40-20-1",
@@ -157,7 +157,7 @@
     "max_logit_loss": null,
     "mean_logit_loss": null,
     "rel_loss": null,
-    "wallclock_s": 115.5044641494751
+    "wallclock_s": 96.6111228466034
   },
   {
     "arch": "40-20-1",
@@ -167,7 +167,7 @@
     "max_logit_loss": 1.984634882801946,
     "mean_logit_loss": 0.23572983261997288,
     "rel_loss": 0.08789590905804769,
-    "wallclock_s": 17.906341075897217
+    "wallclock_s": 17.257039308547974
   },
   {
     "arch": "40-20-1",
@@ -177,17 +177,17 @@
     "max_logit_loss": 10.69666094302209,
     "mean_logit_loss": 1.8577493163012602,
     "rel_loss": 0.6926936787907886,
-    "wallclock_s": 72.24737405776978
+    "wallclock_s": 68.45781397819519
   },
   {
     "arch": "40-20-1",
     "seed": 43,
     "bits": 8,
     "extraction_success": true,
-    "max_logit_loss": 12.627742890021146,
+    "max_logit_loss": 12.62774289002115,
     "mean_logit_loss": 1.8332637316317861,
     "rel_loss": 0.683563808806064,
-    "wallclock_s": 172.59776306152344
+    "wallclock_s": 164.5991952419281
   },
   {
     "arch": "40-20-1",
@@ -197,7 +197,7 @@
     "max_logit_loss": null,
     "mean_logit_loss": null,
     "rel_loss": null,
-    "wallclock_s": 100.47583389282227
+    "wallclock_s": 96.45133996009827
   },
   {
     "arch": "40-20-1",
@@ -207,7 +207,7 @@
     "max_logit_loss": 3.1384844375736893,
     "mean_logit_loss": 0.41636936262152374,
     "rel_loss": 0.12879592835470366,
-    "wallclock_s": 17.46908402442932
+    "wallclock_s": 17.244669198989868
   },
   {
     "arch": "40-20-1",
@@ -216,8 +216,8 @@
     "extraction_success": true,
     "max_logit_loss": 10.427640012849018,
     "mean_logit_loss": 1.5724556495813276,
-    "rel_loss": 0.48640919185141873,
-    "wallclock_s": 70.15139985084534
+    "rel_loss": 0.4864091918514187,
+    "wallclock_s": 68.46948099136353
   },
   {
     "arch": "40-20-1",
@@ -225,9 +225,9 @@
     "bits": 8,
     "extraction_success": true,
     "max_logit_loss": 14.876653338208074,
-    "mean_logit_loss": 2.1362606160317705,
-    "rel_loss": 0.6608115148460251,
-    "wallclock_s": 158.15260314941406
+    "mean_logit_loss": 2.13626061603177,
+    "rel_loss": 0.6608115148460249,
+    "wallclock_s": 150.69491004943848
   },
   {
     "arch": "40-20-1",
@@ -237,6 +237,6 @@
     "max_logit_loss": null,
     "mean_logit_loss": null,
     "rel_loss": null,
-    "wallclock_s": 116.89941191673279
+    "wallclock_s": 94.08594417572021
   }
 ]

@@ -1,0 +1,162 @@
+[
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 0.0011511959484842293,
+    "mean_logit_loss": 0.0002302401184144056,
+    "rel_loss": 7.62741698840713e-05,
+    "wallclock_s": 6.403357028961182
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 24,
+    "extraction_success": true,
+    "max_logit_loss": 0.0015250069420069678,
+    "mean_logit_loss": 0.0003010265020008312,
+    "rel_loss": 9.972435173913868e-05,
+    "wallclock_s": 5.865638732910156
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 20,
+    "extraction_success": true,
+    "max_logit_loss": 0.019659366864543948,
+    "mean_logit_loss": 0.0030174909689097305,
+    "rel_loss": 0.000999637336756474,
+    "wallclock_s": 7.133152008056641
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 18,
+    "extraction_success": true,
+    "max_logit_loss": 1.0516395558654712,
+    "mean_logit_loss": 0.17453376987502484,
+    "rel_loss": 0.05781971667506804,
+    "wallclock_s": 8.722637176513672
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 14.975659396654535,
+    "mean_logit_loss": 1.9781941546404196,
+    "rel_loss": 0.6553380794529665,
+    "wallclock_s": 20.135658025741577
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 14,
+    "extraction_success": true,
+    "max_logit_loss": 13.311837758033342,
+    "mean_logit_loss": 1.8721884334434635,
+    "rel_loss": 0.6202204012527357,
+    "wallclock_s": 28.43063974380493
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 12,
+    "extraction_success": true,
+    "max_logit_loss": 9.513652778941335,
+    "mean_logit_loss": 1.655359622297536,
+    "rel_loss": 0.5483891422566888,
+    "wallclock_s": 36.05836081504822
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 10,
+    "extraction_success": true,
+    "max_logit_loss": 9.400377596295494,
+    "mean_logit_loss": 1.613287602459186,
+    "rel_loss": 0.5344514826923357,
+    "wallclock_s": 40.578994274139404
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 42,
+    "bits": 8,
+    "extraction_success": true,
+    "max_logit_loss": 15.788927821674193,
+    "mean_logit_loss": 2.200570838263022,
+    "rel_loss": 0.7290072430274824,
+    "wallclock_s": 43.515129804611206
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 32,
+    "extraction_success": true,
+    "max_logit_loss": 0.0012730460705911995,
+    "mean_logit_loss": 0.0002387864796893675,
+    "rel_loss": 0.0002487078352551279,
+    "wallclock_s": 5.093616247177124
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 24,
+    "extraction_success": true,
+    "max_logit_loss": 0.0012994665202140099,
+    "mean_logit_loss": 0.0002492795391813659,
+    "rel_loss": 0.0002596368715843753,
+    "wallclock_s": 4.860744953155518
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 20,
+    "extraction_success": true,
+    "max_logit_loss": 2.482446778859001,
+    "mean_logit_loss": 0.25108129851162225,
+    "rel_loss": 0.26151349233468635,
+    "wallclock_s": 5.73671817779541
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 18,
+    "extraction_success": true,
+    "max_logit_loss": 2.913588456880455,
+    "mean_logit_loss": 0.3634569290883162,
+    "rel_loss": 0.3785582255730063,
+    "wallclock_s": 9.618564128875732
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 16,
+    "extraction_success": true,
+    "max_logit_loss": 4.690444205835258,
+    "mean_logit_loss": 0.8602073718749372,
+    "rel_loss": 0.8959481860439882,
+    "wallclock_s": 23.895160913467407
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 14,
+    "extraction_success": true,
+    "max_logit_loss": 5.456363383414971,
+    "mean_logit_loss": 0.8780657382103635,
+    "rel_loss": 0.9145485508479536,
+    "wallclock_s": 38.01995801925659
+  },
+  {
+    "arch": "20-10-1",
+    "seed": 43,
+    "bits": 12,
+    "extraction_success": true,
+    "max_logit_loss": 5.635938055901857,
+    "mean_logit_loss": 0.8332589959691304,
+    "rel_loss": 0.8678801302483105,
+    "wallclock_s": 40.144798040390015
+  }
+]
